@@ -1,0 +1,240 @@
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.head_menu {    
+    padding: 17px 0 19px 0;
+}
+
+.network_link i {
+    transition: .3s linear;
+    color:#fff;
+    font-size: 23px;     
+}
+
+.network_link i:hover {
+    color: #00bac6;
+}
+
+.navbar a {      
+    border-bottom: 2px solid #00b9c600;
+    transition: 0.3s linear;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid #00bac6;
+    color: #00bac6;
+}
+
+.carousel-item h5 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.carousel-caption {
+    bottom: 35%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 28%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 24rem;
+    height: 4rem;
+}
+
+.carousel-indicators {
+    margin-bottom: 2rem;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    background-color: transparent;
+}
+
+.carousel-indicators .active {
+    background-color: #00bac6 !important;
+}
+
+.about h2 {    
+    font-size: 30px;     
+    margin: 44px 0 30px;
+}
+
+.about h2 span,
+.about_item h3 span {
+    color: #4e4e4e;
+}
+
+.about p {   
+    font-size: 15px;
+}
+
+.about_item i {
+    font-size: 113px;  
+    margin-bottom: 17px;
+    transition: 0.3s linear;
+}
+
+.about_item:hover i {
+    color: #00bac6;
+}
+
+.about_item h3 {   
+    font-size: 20px;
+}
+
+.about_item p {
+    font-size: 14px;   
+}
+
+.arrow {   
+    display: block;
+    margin: 0 auto;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 70px solid rgb(235, 235, 235);
+    transition: .3s linear;
+}
+
+.about_item:hover .arrow {  
+    opacity: 1;     
+}
+
+.about_item:hover .arrow {   
+    animation: translatebox .3s linear;
+}
+
+@keyframes translatebox {
+    0% {
+        transform: translateY(20px)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+
+.section_card {
+    background-color: rgb(235, 235, 235);
+}
+
+.card_menu {
+    padding: 40px 0;
+}
+
+.kartochka{
+    margin-bottom: 20px;    
+}
+
+.logo {
+    margin: 30px 0;   
+}
+
+.section_contacts {
+    background-color: #4a4b4a;
+}
+
+.contacts {
+    padding: 30px 0 40px;
+}
+
+.contacts h3 {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 17px;
+}
+
+.contacts ul {
+    padding-left: 0;
+}
+
+.contacts li {
+    font-size: 14px;    
+    list-style: none;
+}
+
+.post li:first-child {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(137, 137, 137, 0.3);
+    margin-bottom: 20px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #c0c0c0;
+    transition: .3s linear;
+}
+
+.contacts a:hover {
+    color: #00bac6;
+}
+
+.contacts p {
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.data i {
+    font-size: 16px;
+    color: #00bac6;
+    padding-right: 6px;
+}
+
+.data p {
+    color: rgba(137, 137, 137, 0.7);
+    margin: 0;
+}
+
+.tags a {
+    font-size: 14px;   
+}
+
+.tags span {
+    font-size: 16px;
+    color: #fff;
+    transition: .3s linear;
+}
+
+.tags a:hover span {
+    color: #00bac6;
+}
+
+.stori_about p {
+    font-size: 14px;
+    color: #c1c1c1;
+}
+
+.contact_links,
+.footer_text{
+    font-size: 14px;
+    color: #c1c1c1;
+}
+
+.contact_links li {
+    padding: 5px 0;
+}
+
+.contact_links i {
+    color: #00bac6;
+    padding-right: 10px;
+}
+
+.footer_menu {    
+    padding: 17px 0 19px 0;
+}
+
